@@ -51,7 +51,7 @@ if st.checkbox("Blue Compra", help="Mostrar valor Compra Dolar Blue"):
 
 st.button("bla")
 st.warning("Guarda!")
-st.info('This is a purely informational message')
+st.info('Aca la sigo cagando con la hora de irme a dormir como un nerd')
 
 #my_bar = st.progress(0)
 #for percent_complete in range(100):
