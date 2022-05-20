@@ -7,7 +7,7 @@ import time
 from requests import post
 
 url = "http://192.168.20.100:8123/api/services/switch/toggle"
-headers = {"Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlNzdjYTM0MDc4NjA0ZGJmOGJjZmZmMjUyOWFlNWI0OSIsImlhdCI6MTY1MDg0NDEwNiwiZXhwIjoxOTY2MjA0MTA2fQ.pLXdRXEUUQRxVVIyzog5IOKaLwqsdxdhcoic3gCFhro"}
+headers = {"Authorization": "Bearer"}
 response = post(url, headers=headers, json={"entity_id": "switch.s26_rele"})
 
 st.set_page_config(
