@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state = "collapsed",
 )
 
-st.title("El Puto AMO de TSA")
+st.title("El Puto AMO de RONGOA")
 
 #col1, col2, col3 = st.beta_columns(3)
 #with col1:
